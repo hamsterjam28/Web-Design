@@ -1,0 +1,21 @@
+h1 {
+    font-family: sans-serif;
+    color: chartreuse;
+    font-size: 80px;
+}
+
+p{
+    color: fuchsia;
+    font-family: Marker Felt;
+    font-size: 150px;
+    text-align: center;
+    border-bottom-style: ridge;
+    border-bottom-color: aqua;
+    text-shadow: 10px 180p00x #ff0005;
+}
+body {
+    background-color: coral
+}
+img {
+    ;
+}
