@@ -17,7 +17,9 @@ body {
     background-color: coral
 }
 img {
-    ;
+    overflow: hidden;
+    height: 1000px;
+    width: 1000px;
 }
 #boxy {
     height: 100px;
@@ -33,6 +35,13 @@ p.text {
     text-align: left;
     font-size: 20px;
     overflow: scroll;
+    height: 500px;
+    width: 500px;
+}
+
+p.text2 {
+    font-family: sans-serif;
+    font-size: 50px;
     height: 500px;
     width: 500px;
 }
