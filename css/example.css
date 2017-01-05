@@ -7,7 +7,7 @@ h1 {
 p{
     color: fuchsia;
     font-family: Marker Felt;
-    font-size: 150px;
+    font-size: 80px;
     text-align: center;
     border-bottom-style: ridge;
     border-bottom-color: aqua;
@@ -18,4 +18,21 @@ body {
 }
 img {
     ;
+}
+#boxy {
+    height: 100px;
+    width: 600px;
+    background-color: aqua;
+    border: 3px solid black;
+    margin: 50px;
+    padding: 30px
+}
+p.text {
+    color: aquamarine;
+    font-family: monospace;
+    text-align: left;
+    font-size: 20px;
+    overflow: scroll;
+    height: 500px;
+    width: 500px;
 }
