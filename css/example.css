@@ -31,7 +31,7 @@ img {
 }
 p.text {
     color: aquamarine;
-    font-family: monospace;
+    font-family: 'swiftlight';
     text-align: left;
     font-size: 20px;
     overflow: scroll;
@@ -45,3 +45,13 @@ p.text2 {
     height: 500px;
     width: 500px;
 }
+
+@font-face {
+    font-family: 'swiftlight';
+    src: url('swift-webfont.woff2') format('woff2'),
+         url('swift-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* This Font is to be used with body text*/
