@@ -10,9 +10,11 @@
 
 h1 {
     font-family: sans-serif;
-    color: chartreuse;
+    color: rgb(300,30,60);
+    filter: contrast(80%);
     font-size: 80px;
     text-align: center;
+    color: cont
 }
 
 p{
@@ -25,12 +27,14 @@ p{
     text-shadow: 10px 180p00x #ff0005;
 }
 body {
-    background-color: coral
+    background-color: hsla(360,70%,50%,0.5);
 }
 img {
     overflow: hidden;
     height: 1000px;
     width: 1000px;
+    filter:drop-shadow(8px 8px 10px aqua);
+    filter:hue-rotate(90deg);
 }
 
 p.text {
@@ -52,18 +56,46 @@ p.text2 {
 
     font-family: sans-serif;
     font-size: 20px;
-    height: 1000px;
+    height: 500px;
     width: 1000px;
     margin: auto;
-    background-color: coral;
+    text-align: center;
+    background-color: #75efd9;
 
 }
 
 #page{
     margin: auto;
     background-color: aqua;
+    filter: opacity(60%);
     width: 1000px;
+    border-top-left-radius: 80px 50px;
+    border-top-right-radius: 80px 50px;
+    border-bottom-left-radius: 80px 50px;
+    border-bottom-right-radius: 80px 50px;
 
 
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
 }
 
