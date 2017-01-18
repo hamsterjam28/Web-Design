@@ -12,14 +12,28 @@ h1 {
     font-family: sans-serif;
     color: rgb(300,30,60);
     filter: contrast(80%);
-    font-size: 80px;
+    border: 80px;
+    border-color: aqua;
+    font-size: 50px;
     text-align: center;
-    color: cont
+    color: mediumvioletred;
+    position: fixed;
+    top: 5px;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    background-color: #efefef;
+    z-index: 20;
+}
+
+h4{
+    position: absolute;
 }
 
 p{
     color: fuchsia;
     font-family: Marker Felt;
+    position:static;
     font-size: 80px;
     text-align: center;
     border-bottom-style: ridge;
@@ -29,13 +43,7 @@ p{
 body {
     background-color: hsla(360,70%,50%,0.5);
 }
-img {
-    overflow: hidden;
-    height: 1000px;
-    width: 1000px;
-    filter:drop-shadow(8px 8px 10px aqua);
-    filter:hue-rotate(90deg);
-}
+
 
 p.text {
     border-top-left-radius: 80px 50px;
@@ -43,11 +51,12 @@ p.text {
     border-bottom-left-radius: 80px 50px;
     border-bottom-right-radius: 80px 50px;
     color: beige;
+    position:relative;
     font-family: 'swiftlight';
     font-size: 20px;
     overflow: scroll;
     height: 500px;
-    width: 500px;
+    width: 600px;
     margin: auto;
 
 }
@@ -62,6 +71,7 @@ p.text2 {
     text-align: center;
     background-color: #75efd9;
 
+
 }
 
 #page{
@@ -75,6 +85,11 @@ p.text2 {
     border-bottom-right-radius: 80px 50px;
 
 
+}
+
+h3{
+    float: left;
+    font-size: 30px;
 }
 
 div {
